@@ -17,6 +17,11 @@
 :root {
     background-color: var(--background-color);
     color: var(--color);
+    -webkit-scrollbar {
+        display: none;
+    }
+    -ms-overflow-style: none;
+    scrollbar-width: none;
 }
 
 @layer utilities {
