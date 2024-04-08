@@ -10,20 +10,23 @@
 	<div
 		class="min-w-60 hover:shadow-glow hover:shadow-slate-50/10
 	 border flex justify-center item-center rounded-3xl
-	min-h-8 hover:min-w-80 transition-all px-2 duration-500"
+	min-h-8 hover:min-w-64 transition-all px-2 duration-500"
 	>
 		<div class="flex flex-col">
 			<div class="w-full h-1"></div>
 			<textarea
-				class="hover:m-2 focus:m-2 w-11/12 focus:w-[34rem] focus:h-36 h-8
+				class="focus:m-2 w-11/12 focus:w-[34rem] focus:h-36 h-8
 		transition-all duration-500 bg-transparent outline-none resize-none no-scrollbar"
 				placeholder="Search..."
 				spellcheck="false"
 			/>
 		</div>
-		<div class="flex items-center">
+		<button
+			class="flex items-center dark:text-neutral-50 drop-shadow-md
+		 hover:text-blue-500 transition-all duration-500"
+		>
 			<span class="material-symbols-outlined"> search </span>
-		</div>
+		</button>
 	</div>
 
 	<div class="flex gap-4 min-w-52 items-center">
@@ -34,7 +37,7 @@
 			</li>
 		</nav>
 		<button
-			class="border hover:shadow-glow hover:shadow-teal-700
+			class="hover:shadow-glow bg-blue-200 dark:bg-blue-500 hover:shadow-blue-600/50
 		 px-4 py-1 rounded-full duration-500 transition-all">Search</button
 		>
 	</div>
