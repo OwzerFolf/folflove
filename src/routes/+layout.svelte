@@ -3,7 +3,7 @@
 </script>
 
 <header
-	class="fixed w-full flex items-center z-50
+	class="fixed w-screen flex items-center z-50
 	justify-between p-2 top-0"
 >
 	<div class="flex rounded-full justify-center sm:justify-between w-full items-center p-4
@@ -42,6 +42,6 @@ hover:text-blue-500 transition-all duration-500"
 		</div>
 	</div>
 </header>
-<div class="pt-20 px-4 bg-[url(/dammyhug.png)] bg-cover">
+<div class="pt-20 px-4 bg-[url(/dammyhug.png)] overflow-hidden bg-cover">
 	<slot />
 </div>
