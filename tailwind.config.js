@@ -5,6 +5,9 @@ export default {
     extend: {
       boxShadow: {
         'glow': '0 0 20px 5px rgb(0 0 0 / 0.1)',
+      },
+      transitionTimingFunction: {
+        'bounce': 'cubic-bezier(.43,1.34,.35,1.03)'
       }
     },
   },
