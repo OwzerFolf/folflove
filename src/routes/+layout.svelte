@@ -3,16 +3,16 @@
 </script>
 
 <header
-	class="sticky flex items-center z-50
-	justify-between p-2 top-0 min-h-16"
+	class="fixed w-full flex items-center z-50
+	justify-between p-2 top-0"
 >
-	<div class="flex rounded-full justify-between w-full items-center p-4
-	 bg-zinc-50/80 shadow-md dark:bg-zinc-900/80 backdrop-blur-lg">
-		<h1 class="text-2xl font-semibold">Folf.love</h1>
+	<div class="flex rounded-full justify-center sm:justify-between w-full items-center p-4
+	 bg-zinc-50/80 shadow-md dark:bg-zinc-900/60 backdrop-blur-lg">
+		<h1 class="sm:block text-2xl hidden font-semibold sm:visible">Folf.love</h1>
 		<div
-			class="min-h-8
+			class="min-h-8 w-full
 	flex justify-center bg-neutral-50/50 item-center rounded-3xl dark:bg-neutral-900/50 shadow-md
-	transition-all ease-bounce px-2 w-56 duration-300 h-8 focus-within:h-12 focus-within:w-1/3"
+	transition-all ease-bounce px-2 sm:w-56 duration-300 h-8 focus-within:h-12 sm:focus-within:w-1/3"
 		>
 			<div class="flex flex-row w-full justify-center items-center">
 				<input
@@ -29,7 +29,7 @@ hover:text-blue-500 transition-all duration-500"
 			</div>
 		</div>
 
-		<div class="flex gap-4 items-center">
+		<div class="sm:flex hidden gap-4 items-center">
 			<nav>
 				<li class="list-none flex gap-5">
 					<ul><a href="/about">About</a></ul>
@@ -42,4 +42,6 @@ hover:text-blue-500 transition-all duration-500"
 		</div>
 	</div>
 </header>
-<slot />
+<div class="pt-20 px-4 bg-[url(/dammyhug.png)] bg-cover">
+	<slot />
+</div>
