@@ -6,8 +6,10 @@
 	class="fixed w-screen flex items-center z-50
 	justify-between p-2 top-0"
 >
-	<div class="flex rounded-full justify-center sm:justify-between w-full items-center p-4
-	 bg-zinc-50/80 shadow-md dark:bg-zinc-900/60 backdrop-blur-lg">
+	<div
+		class="flex rounded-full justify-center sm:justify-between w-full items-center p-2
+		 bg-zinc-50/80 shadow-md dark:bg-zinc-900/60 backdrop-blur-lg"
+	>
 		<h1 class="sm:block text-2xl hidden font-semibold sm:visible">Folf.love</h1>
 		<div
 			class="min-h-8 w-full
@@ -40,8 +42,16 @@ hover:text-blue-500 transition-all duration-500"
 		 px-4 py-1 rounded-full duration-500 transition-all">Folf</button
 			>
 		</div>
+		<button
+			class="flex mx-2 rounded-full bg-slate-50/50 dark:bg-neutral-800/50 sm:hidden
+		 shadow-xl justify-center items-center p-1"
+		>
+			<span class="material-symbols-outlined"> menu </span></button
+		>
 	</div>
 </header>
-<div class="pt-20 px-4 bg-[url(/dammyhug.png)] overflow-hidden bg-cover">
-	<slot />
+<div class="bg-[url(/dammyhug.png)] overflow-x-hidden bg-cover w-screen h-screen">
+	<main class="sm:pt-20 pt-16 px-4">
+		<slot />
+	</main>
 </div>
