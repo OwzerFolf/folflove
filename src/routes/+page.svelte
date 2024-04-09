@@ -12,7 +12,7 @@
 			<div class="shadow-lg dark:bg-neutral-900/50 backdrop-blur-md rounded-2xl flex justify-center flex-col items-center px-2 pt-2">
 				<h1 class="text-4xl">Hi I'm Owzer!</h1>
 				<p class="m-4">
-					Folfly
+					This page is still a work in progress! it's a page
 				</p>
 			</div>
 		</div>
